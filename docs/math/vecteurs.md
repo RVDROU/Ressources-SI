@@ -16,7 +16,7 @@ La base b est **directe** si en plus $\vec{x}$, $\vec{y}$ et $\vec{z}$ obéissen
 
 ----
 
-## Trigonométrie
+## Rappel de trigonométrie Trigonométrie
 ### Mesure d’un angle
 Un cercle complet représente un angle de 2π radians.
 
@@ -39,8 +39,7 @@ Dans ce cas on peut imaginer un cercle tel que :
 
 Ainsi, on peut facilement exprimer les deux autres cotés du triangle en fonction de r et de α :
 
-![](../assets/image/math/trigo.png){ width='400' }
-
+![](../assets/image/math/trigo.png){ width='300' }
 
 
 
@@ -71,17 +70,19 @@ Vectoriellement, la direction est donnée par un vecteur directeur $\vec{u}$ et 
 
 $\vec{V} =±V.\vec{u}$
 
+
 ### Écriture cartésienne
 
-Dans une base **b** ($\vec{x}, \vec{y}, \vec{z}$), on peut exprimer un vecteur $\vec {V}$ de différentes manières :
+Dans une base **b** ($\vec{x}, \vec{y}$), on peut exprimer un vecteur $\vec {V}$ de différentes manières :
 
 - par ses composantes :
 
-$\vec{V} = V_x.\vec{x} + V_y.\vec{y} + V_z.\vec{z}$
+$\vec{V} = V_x.\vec{x} + V_y.\vec{y}$
+
 
 - par ses coordonnées :
 
-$\vec{V} = \begin{pmatrix} V_x \\ V_y\\ V_z \end{pmatrix}_{(\vec{x}, \vec{y}, \vec{z})}$
+$\vec{V} = \begin{pmatrix} V_x \\ V_y \end{pmatrix}_{(\vec{x}, \vec{y})}$
 
 *Remarque : pour écrire un vecteur « en colonne », il faut impérativement préciser la base dans laquelle ses coordonnées sont exprimées.*
 
@@ -128,10 +129,17 @@ Dans le cas 2, il faut rajouter 180 degrés puisque la fonction arc-tangente ne 
 ## Écriture polaire
 Les coordonnées polaires d’un vecteur sont souvent utilisées dans un mouvement non linéaire, par exemple si le mouvement décrit une trajectoire circulaire.
 
-Les coordonnées polaires d’un vecteur $\vec{V}$ définissent sa longueur à partir de l’origine notée 𝑟, ce qui correspond à sa norme et son angle par rapport à l’axe des abscisses noté 𝜃.
+Les coordonnées polaires d’un vecteur $\vec{V}$ définissent sa longueur à partir de l’origine notée 𝑟 et son angle noté 𝜃 , ce qui correspond à sa norme et son angle par rapport à l’axe des abscisses.
+
 
 <iframe loading="lazy" style="border: 0px;" title="Trigonométrie" src="https://www.geogebra.org/material/iframe/id/S8MjNYYP/width/850/height/680/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" scrolling="no" width="850px" height="680px"> </iframe>
 
+
+!!! Note
+    Il existe un lien entre les coordonnées polaires (𝑟, 𝜃) et les coordonnées cartésiennes $(V_y, V_x)$ d'un vecteur. On a :
+
+    - $V_x = r.cos(𝜃)$
+    - $V_y = r.sin(𝜃)$
 ----
 
 # Opérations vectorielles

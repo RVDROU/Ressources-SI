@@ -375,11 +375,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#trigonometrie" class="md-nav__link">
-    Trigonométrie
+  <a href="#rappel-de-trigonometrie-trigonometrie" class="md-nav__link">
+    Rappel de trigonométrie Trigonométrie
   </a>
   
-    <nav class="md-nav" aria-label="Trigonométrie">
+    <nav class="md-nav" aria-label="Rappel de trigonométrie Trigonométrie">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -636,7 +636,7 @@
 <iframe loading="lazy" style="border: 0px;" scrolling="no" title="repère3D" src="https://www.geogebra.org/material/iframe/id/qtjtfgbb/width/400/height/400/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="300px" height="300px" > </iframe>
 
 <hr />
-<h2 id="trigonometrie">Trigonométrie</h2>
+<h2 id="rappel-de-trigonometrie-trigonometrie">Rappel de trigonométrie Trigonométrie</h2>
 <h3 id="mesure-dun-angle">Mesure d’un angle</h3>
 <p>Un cercle complet représente un angle de 2π radians.</p>
 <div class="admonition note">
@@ -656,7 +656,7 @@
 <li>le rayon r correspond à l’hypoténuse du triangle rectangle</li>
 </ul>
 <p>Ainsi, on peut facilement exprimer les deux autres cotés du triangle en fonction de r et de α :</p>
-<p><img alt="" src="../../assets/image/math/trigo.png" width="400" /></p>
+<p><img alt="" src="../../assets/image/math/trigo.png" width="300" /></p>
 <hr />
 <h2 id="les-vecteurs">Les vecteurs</h2>
 <p>Un <strong>scalaire</strong>, ou élément de l’ensemble des réels R, ne porte qu’une seule information de grandeur physique : température, longueur, pression,...</p>
@@ -676,15 +676,15 @@
 <p>Vectoriellement, la direction est donnée par un vecteur directeur <span class="arithmatex">\(\vec{u}\)</span> et le sens par un signe. On  peut écrire :</p>
 <p><span class="arithmatex">\(\vec{V} =±V.\vec{u}\)</span></p>
 <h3 id="ecriture-cartesienne">Écriture cartésienne</h3>
-<p>Dans une base <strong>b</strong> (<span class="arithmatex">\(\vec{x}, \vec{y}, \vec{z}\)</span>), on peut exprimer un vecteur <span class="arithmatex">\(\vec {V}\)</span> de différentes manières :</p>
+<p>Dans une base <strong>b</strong> (<span class="arithmatex">\(\vec{x}, \vec{y}\)</span>), on peut exprimer un vecteur <span class="arithmatex">\(\vec {V}\)</span> de différentes manières :</p>
 <ul>
 <li>par ses composantes :</li>
 </ul>
-<p><span class="arithmatex">\(\vec{V} = V_x.\vec{x} + V_y.\vec{y} + V_z.\vec{z}\)</span></p>
+<p><span class="arithmatex">\(\vec{V} = V_x.\vec{x} + V_y.\vec{y}\)</span></p>
 <ul>
 <li>par ses coordonnées :</li>
 </ul>
-<p><span class="arithmatex">\(\vec{V} = \begin{pmatrix} V_x \\ V_y\\ V_z \end{pmatrix}_{(\vec{x}, \vec{y}, \vec{z})}\)</span></p>
+<p><span class="arithmatex">\(\vec{V} = \begin{pmatrix} V_x \\ V_y \end{pmatrix}_{(\vec{x}, \vec{y})}\)</span></p>
 <p><em>Remarque : pour écrire un vecteur « en colonne », il faut impérativement préciser la base dans laquelle ses coordonnées sont exprimées.</em></p>
 <h2 id="norme-et-orientation-dun-vecteur">Norme et orientation d'un vecteur</h2>
 <h3 id="norme-dun-vecteur">Norme d'un vecteur</h3>
@@ -714,9 +714,17 @@
 <p>Dans le cas 2, il faut rajouter 180 degrés puisque la fonction arc-tangente ne couvre que des angles de -90° à 90°, ce qui correspond à tous les vecteurs pointant vers la droite. </p>
 <h2 id="ecriture-polaire">Écriture polaire</h2>
 <p>Les coordonnées polaires d’un vecteur sont souvent utilisées dans un mouvement non linéaire, par exemple si le mouvement décrit une trajectoire circulaire.</p>
-<p>Les coordonnées polaires d’un vecteur <span class="arithmatex">\(\vec{V}\)</span> définissent sa longueur à partir de l’origine notée 𝑟, ce qui correspond à sa norme et son angle par rapport à l’axe des abscisses noté 𝜃.</p>
+<p>Les coordonnées polaires d’un vecteur <span class="arithmatex">\(\vec{V}\)</span> définissent sa longueur à partir de l’origine notée 𝑟 et son angle noté 𝜃 , ce qui correspond à sa norme et son angle par rapport à l’axe des abscisses.</p>
 <iframe loading="lazy" style="border: 0px;" title="Trigonométrie" src="https://www.geogebra.org/material/iframe/id/S8MjNYYP/width/850/height/680/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/false/ctl/false" scrolling="no" width="850px" height="680px"> </iframe>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Il existe un lien entre les coordonnées polaires (𝑟, 𝜃) et les coordonnées cartésiennes <span class="arithmatex">\((V_y, V_x)\)</span> d'un vecteur. On a :</p>
+<ul>
+<li><span class="arithmatex">\(V_x = r.cos(𝜃)\)</span></li>
+<li><span class="arithmatex">\(V_y = r.sin(𝜃)\)</span></li>
+</ul>
+</div>
 <hr />
 <h1 id="operations-vectorielles">Opérations vectorielles</h1>
 <h2 id="addition-vectorielle">Addition vectorielle</h2>
